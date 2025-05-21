@@ -3,18 +3,18 @@
 <!-- Opcional: Banner del proyecto -->
 <!-- ![Banner del Proyecto](URL_DEL_BANNER_AQUI) -->
 
-## 🧑‍💻 Autores
+##  Autores
  - Neider Alirio Piza Basto - 2225613,
  - Leider Joanny Esteban Lozano - 2215003 
  - Nombre Completo - ID/Usuario 
 
 
-## 🎯 Descripción del Proyecto
+##  Descripción del Proyecto
 Este proyecto tiene como objetivo predecir la temperatura para el departamento de Santander, Colombia, utilizando datos meteorológicos históricos. La predicción de temperatura es crucial para diversos sectores como la agricultura, el turismo y la salud pública.
 
 El análisis se enfoca en información hidrometeorológica proveniente de estaciones del IDEAM, midiendo la temperatura del aire a 2 metros en diferentes municipios.
 
-## 📊 Dataset
+##  Dataset
 
 - **Fuente:** IDEAM - Instituto de Hidrología, Meteorología y Estudios Ambientales de Colombia](https://www.datos.gov.co/browse?q=IDEAM&sortBy=relevance
 - **Archivo Utilizado:** `Datos_Hidrometeorol_gicos_Crudos_-_Red_de_Estaciones_IDEAM___Temperatura_20250310 (1).csv`
@@ -33,7 +33,7 @@ El análisis se enfoca en información hidrometeorológica proveniente de estaci
 - Filtrado para incluir solo datos de "TEMPERATURA DEL AIRE A 2 m".
 - Eliminación de columnas consideradas irrelevantes para el modelado (`CodigoSensor`, `UnidadMedida` después de la verificación).
 
-## 🧠 Modelos y Técnicas Utilizadas
+##  Modelos y Técnicas Utilizadas
 Se implementaron y evaluaron los siguientes modelos de regresión para la predicción de temperatura:
 
 1.  **Decision Tree Regressor (Árbol de Decisión para Regresión)**
@@ -42,7 +42,7 @@ Se implementaron y evaluaron los siguientes modelos de regresión para la predic
 
 Se realizaron análisis exploratorios de datos (EDA) con visualizaciones como histogramas y gráficos de series temporales, así como gráficos de temperatura promedio por estación y municipio. También se generaron curvas de aprendizaje y se aplicó validación cruzada (k-folds) para evaluar la robustez de los modelos y optimizar hiperparámetros como `max_depth` (para Decision Tree) y `n_estimators` (para Random Forest), y el tipo de `kernel` (para SVR).
 
-## 📈 Resultados y Evaluación
+##  Resultados y Evaluación
 Los modelos fueron evaluados utilizando las siguientes métricas:
 - Error Cuadrático Medio (RMSE)
 - Coeficiente de Determinación (R²)
@@ -68,20 +68,10 @@ Los modelos fueron evaluados utilizando las siguientes métricas:
 - MAE promedio: ~3.04 °C
 - Desviación estándar del MAE: ~0.06 °C
 
-## 🔗 Enlaces Relevantes
+##  Enlaces Relevantes
 - **Código Fuente:** (https://colab.research.google.com/drive/1r91XzIEdN9o14r5s3xDfvmdt1EJznSUj?usp=sharing)
 - **Video de Presentación:** [Presentación del Proyecto en Video](URL_DEL_VIDEO_AQUI)
 - **Diapositivas:** [Diapositivas de la Presentación](URL_DE_LAS_DIAPOSITIVAS_AQUI) -->
-
----
-
-<!-- Opcional: Cómo ejecutar el código -->
-<!--
-## 🚀 Cómo Empezar
-1. Clona este repositorio.
-2. Asegúrate de tener el archivo CSV del dataset (`Datos_Hidrometeorol_gicos_Crudos_-_Red_de_Estaciones_IDEAM___Temperatura_20250310 (1).csv`) en la ruta especificada en el notebook (por defecto, en la carpeta "Proyecto-IA" de Google Drive, o ajústalo según sea necesario).
-3. Abre el notebook (`Proyecto.ipynb`) en un entorno compatible con Jupyter (como Google Colab, Jupyter Lab, VS Code).
-4. Ejecuta las celdas en orden.
 
 **Dependencias Principales:**
 - pandas
@@ -89,4 +79,4 @@ Los modelos fueron evaluados utilizando las siguientes métricas:
 - matplotlib
 - seaborn
 - scikit-learn
--->
+  
