@@ -1,4 +1,4 @@
-# 🌦️ PREDICCIÓN DE TEMPERATURA PARA EL DEPARTAMENTO DE SANTANDER
+# PREDICCIÓN DE TEMPERATURA PARA EL DEPARTAMENTO DE SANTANDER
 
 ![Banner_proyecto](https://github.com/user-attachments/assets/6def4232-7fb2-49bf-910f-84432e954ad3)
 
