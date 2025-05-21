@@ -47,7 +47,7 @@ Se realizaron análisis exploratorios de datos (EDA) con visualizaciones como hi
 - **Código Fuente:** (https://colab.research.google.com/drive/1r91XzIEdN9o14r5s3xDfvmdt1EJznSUj?usp=sharing)
 - **Video de Presentación:** [Presentación del Proyecto en Video](URL_DEL_VIDEO_AQUI)
 - **Diapositivas:** [Diapositivas de la Presentación](URL_DE_LAS_DIAPOSITIVAS_AQUI)
-- **Repositorio Proyecto:** Enlace a GitHub
+- **Repositorio Proyecto:** https://github.com/NeyderPiza/Proyecto_Prediccion_Temperatura_Santander
 <!--
 **Dependencias Principales:**
 - pandas
