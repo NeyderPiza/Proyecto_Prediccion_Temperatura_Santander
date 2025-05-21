@@ -4,10 +4,10 @@
 <!-- ![Banner del Proyecto](URL_DEL_BANNER_AQUI) -->
 
 ## 🧑‍💻 Autores
-<!-- - Nombre Completo - ID/Usuario -->
-<!-- - Nombre Completo - ID/Usuario -->
-<!-- - Nombre Completo - ID/Usuario -->
-<!-- Por favor, añade los nombres de los autores aquí -->
+ - Neider Alirio Piza Basto - 2225613,
+ - Leider Joanny Esteban Lozano - 2215003 
+ - Nombre Completo - ID/Usuario 
+
 
 ## 🎯 Descripción del Proyecto
 Este proyecto tiene como objetivo predecir la temperatura para el departamento de Santander, Colombia, utilizando datos meteorológicos históricos. La predicción de temperatura es crucial para diversos sectores como la agricultura, el turismo y la salud pública.
