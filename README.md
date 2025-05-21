@@ -73,11 +73,11 @@ Los modelos fueron evaluados utilizando las siguientes métricas:
 - **Video de Presentación:** [Presentación del Proyecto en Video](URL_DEL_VIDEO_AQUI)
 - **Diapositivas:** [Diapositivas de la Presentación](URL_DE_LAS_DIAPOSITIVAS_AQUI)
 - **Repositorio Proyecto:** Enlace a GitHub
-
+<!--
 **Dependencias Principales:**
 - pandas
 - numpy
 - matplotlib
 - seaborn
 - scikit-learn
-  
+  -->
