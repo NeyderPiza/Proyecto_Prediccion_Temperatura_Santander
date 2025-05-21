@@ -1,7 +1,7 @@
 # 🌦️ PREDICCIÓN DE TEMPERATURA PARA EL DEPARTAMENTO DE SANTANDER
 
-<!-- Opcional: Banner del proyecto -->
-<!-- ![Banner del Proyecto](URL_DEL_BANNER_AQUI) -->
+![Banner_proyecto](https://github.com/user-attachments/assets/6def4232-7fb2-49bf-910f-84432e954ad3)
+
 
 ##  Autores
  - Neider Alirio Piza Basto - 2225613,
