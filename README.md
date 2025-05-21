@@ -42,31 +42,6 @@ Se implementaron y evaluaron los siguientes modelos de regresión para la predic
 
 Se realizaron análisis exploratorios de datos (EDA) con visualizaciones como histogramas y gráficos de series temporales, así como gráficos de temperatura promedio por estación y municipio. También se generaron curvas de aprendizaje y se aplicó validación cruzada (k-folds) para evaluar la robustez de los modelos y optimizar hiperparámetros como `max_depth` (para Decision Tree) y `n_estimators` (para Random Forest), y el tipo de `kernel` (para SVR).
 
-##  Resultados y Evaluación
-Los modelos fueron evaluados utilizando las siguientes métricas:
-- Error Cuadrático Medio (RMSE)
-- Coeficiente de Determinación (R²)
-- Error Absoluto Medio (MAE)
-
-**Resultados Destacados (con `test_size=0.2`, `random_state=42` sobre el dataset completo):**
-- **Decision Tree:**
-    - RMSE: ~3.55 °C
-    - R²: ~0.69
-    - MAE: ~2.99 °C
-- **Random Forest:**
-    - RMSE: ~3.55 °C
-    - R²: ~0.69
-    - MAE: ~2.99 °C
-- **Support Vector Machine (SVR):**
-    - RMSE: ~6.42 °C
-    - R²: ~-0.01 (indica un rendimiento pobre)
-    - MAE: ~5.01 °C
-
-*Los modelos de Árbol de Decisión y Bosque Aleatorio mostraron un rendimiento similar y significativamente mejor que SVR para este conjunto de datos y características.*
-
-**Validación Cruzada (ejemplo con Decision Tree y k=5):**
-- MAE promedio: ~3.04 °C
-- Desviación estándar del MAE: ~0.06 °C
 
 ##  Enlaces Relevantes
 - **Código Fuente:** (https://colab.research.google.com/drive/1r91XzIEdN9o14r5s3xDfvmdt1EJznSUj?usp=sharing)
