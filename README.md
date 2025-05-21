@@ -69,9 +69,9 @@ Los modelos fueron evaluados utilizando las siguientes métricas:
 - Desviación estándar del MAE: ~0.06 °C
 
 ## 🔗 Enlaces Relevantes
-- **Código Fuente:** [Notebook del Proyecto](URL_AL_NOTEBOOK_AQUI) <!-- Reemplazar con el enlace real al notebook .ipynb en GitHub o Colab -->
-<!-- - **Video de Presentación:** [Presentación del Proyecto en Video](URL_DEL_VIDEO_AQUI) -->
-<!-- - **Diapositivas:** [Diapositivas de la Presentación](URL_DE_LAS_DIAPOSITIVAS_AQUI) -->
+- **Código Fuente:** [[Notebook del Proyecto](URL_AL_NOTEBOOK_AQUI) <!-- Reemplazar con el enlace real al notebook .ipynb en GitHub o Colab -->](https://colab.research.google.com/drive/1r91XzIEdN9o14r5s3xDfvmdt1EJznSUj?usp=sharing)
+- **Video de Presentación:** [Presentación del Proyecto en Video](URL_DEL_VIDEO_AQUI)
+- **Diapositivas:** [Diapositivas de la Presentación](URL_DE_LAS_DIAPOSITIVAS_AQUI) -->
 
 ---
 
