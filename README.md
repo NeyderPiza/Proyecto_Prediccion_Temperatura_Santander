@@ -27,18 +27,33 @@ El análisis se enfoca en información hidrometeorológica proveniente de estaci
 - **Ubicación:** Departamento de Santander, Colombia, con datos de varios municipios.
 
 **Preprocesamiento Realizado:**
-- Conversión de la columna `FechaObservacion` a formato datetime.
-- Extracción de características temporales (Día, Mes, Año).
-- Eliminación de valores nulos en columnas críticas (`FechaObservacion`, `ValorObservado`).
-- Filtrado para incluir solo datos de "TEMPERATURA DEL AIRE A 2 m".
-- Eliminación de columnas consideradas irrelevantes para el modelado (`CodigoSensor`, `UnidadMedida` después de la verificación).
+*   Conversión de la columna `FechaObservacion` a formato datetime.
+*   Extracción de características temporales (`Día`, `Mes`, `Año`) de `FechaObservacion`.
+*   Eliminación de valores nulos en columnas críticas (`FechaObservacion`, `ValorObservado`).
+*   Filtrado para incluir solo datos de "TEMPERATURA DEL AIRE A 2 m".
+*   Eliminación de columnas consideradas irrelevantes para el modelado (`CodigoSensor`, `UnidadMedida` después de la verificación).
+*   Escalado de características (`StandardScaler`) para preparar los datos para las redes neuronales.
 
 ##  Modelos y Técnicas Utilizadas
-Se implementaron y evaluaron los siguientes modelos de regresión para la predicción de temperatura:
+Se implementaron y evaluaron diversos modelos y técnicas, incluyendo:
 
-1.  **Decision Tree Regressor (Árbol de Decisión para Regresión)**
-2.  **Random Forest Regressor (Bosque Aleatorio para Regresión)**
-3.  **Support Vector Regressor (SVR - Máquina de Vectores de Soporte para Regresión)**
+1.  **Modelos de Regresión para la Predicción de Temperatura:**
+    *   Decision Tree Regressor (Árbol de Decisión para Regresión)
+    *   Random Forest Regressor (Bosque Aleatorio para Regresión)
+    *   Support Vector Regressor (SVR - Máquina de Vectores de Soporte para Regresión)
+    *   Redes Neuronales (con tres configuraciones diferentes: 3, 6 y 10 capas ocultas, utilizando optimizador Adam y función de pérdida MSE).
+
+2.  **Análisis Exploratorio de Datos (EDA) y Evaluación de Modelos:**
+    *   Visualizaciones como histogramas, gráficos de series temporales, gráficos de temperatura promedio por estación y municipio.
+    *   Generación de curvas de aprendizaje y aplicación de validación cruzada (k-folds) para evaluar la robustez de los modelos y optimizar hiperparámetros para SVR, y configuraciones de capas/neuronas para Redes Neuronales.
+    *   Métricas de evaluación como RMSE (Root Mean Squared Error), R² Score y MAE (Mean Absolute Error).
+
+3.  **Técnicas Adicionales de Análisis de Datos:**
+    *   **Reducción de Dimensionalidad con PCA (Principal Component Analysis):** Aplicada a los datos escalados para reducir la dimensionalidad a 2 componentes principales, facilitando la visualización y el clustering.
+    *   **Algoritmos de Clustering:**
+        *   K-Means: Aplicado a los datos transformados por PCA para identificar agrupaciones (clusters).
+        *   DBSCAN: Aplicado a los datos transformados por PCA para identificar clusters basados en densidad.
+
 
 Se realizaron análisis exploratorios de datos (EDA) con visualizaciones como histogramas y gráficos de series temporales, así como gráficos de temperatura promedio por estación y municipio. También se generaron curvas de aprendizaje y se aplicó validación cruzada (k-folds) para evaluar la robustez de los modelos y optimizar hiperparámetros como `max_depth` (para Decision Tree) y `n_estimators` (para Random Forest), y el tipo de `kernel` (para SVR).
 
