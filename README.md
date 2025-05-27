@@ -60,7 +60,7 @@ Se realizaron análisis exploratorios de datos (EDA) con visualizaciones como hi
 
 ##  Enlaces Relevantes
 - **Código Fuente (Notebook):** https://colab.research.google.com/drive/1r91XzIEdN9o14r5s3xDfvmdt1EJznSUj?usp=sharing
-- **Video de Presentación:**https://youtu.be/3G2HQN0pP5Y
+- **Video de Presentación:https://youtu.be/3G2HQN0pP5Y
 - **Diapositivas:** [Diapositivas de la Presentación](https://github.com/NeyderPiza/Proyecto_Prediccion_Temperatura_Santander/blob/main/Prediccion-de-Temperatura-en-Santander-Colombia%20(1).pdf)
 - **Repositorio Proyecto:** https://github.com/NeyderPiza/Proyecto_Prediccion_Temperatura_Santander
 <!--
